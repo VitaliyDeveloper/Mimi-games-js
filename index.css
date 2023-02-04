@@ -178,6 +178,7 @@ button {
     text-decoration: none;
     font-size: inherit;
     font-family: inherit;
+
 }
 
 #btnStop {
@@ -270,6 +271,24 @@ button.btn:active::before {
     border-radius: 50%;
     background-color: dodgerblue;
     box-shadow: 6px 0 6px #00366b, 5px 5px 5px #002951, 0 6px 6px #00366b;
+    transition: 300ms linear;
+    animation: gameShow 1000ms linear;
+
+
+}
+
+@keyframes gameShow {
+
+    0% {
+        transform: rotateY(180deg);
+        opacity: 0;
+    }
+
+    100% {
+        transform: rotateY(0);
+
+        opacity: 1;
+    }
 }
 
 .linkGame {

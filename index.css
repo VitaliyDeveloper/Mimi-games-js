@@ -273,8 +273,6 @@ button.btn:active::before {
     box-shadow: 6px 0 6px #00366b, 5px 5px 5px #002951, 0 6px 6px #00366b;
     transition: 300ms linear;
     animation: gameShow 1000ms linear;
-
-
 }
 
 @keyframes gameShow {
